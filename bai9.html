@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let toan = +prompt("diem toan");
+      let li = +prompt("diem li");
+      let hoa = +prompt("diem hoa");
+      let tb = (toan + li + hoa) / 3;
+
+      if (tb >= 8 && tb <= 10) {
+        alert("gioi");
+      } else if (tb >= 6.5 && tb <= 7.9) {
+        alert("kha");
+      } else if (tb >= 5 && tb <= 6.4) {
+        alert("trung binh");
+      } else {
+        alert("yeu");
+      }
+    </script>
+  </body>
+</html>

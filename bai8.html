@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let height = +prompt("chieu cao");
+      let weight = +prompt("can nang");
+      let bmi = weight / height ** 2;
+      if (bmi < 18.5) {
+        alert("thap gay");
+      } else if (bmi >= 18.5 && bmi <= 24.9) {
+        alert("binh thuong");
+      } else if (bmi >= 25) {
+        alert("thua can");
+      } else if (bmi <= 29.9) {
+        alert("tien beo phi");
+      } else if (bmi <= 34.9) {
+        alert("beo phi do I");
+      } else if (bmi <= 39.9) {
+        alert("beo phi do II");
+      } else if (bmi >= 40) {
+        alert("beo phi do II");
+      } else {
+        alert("ban qua beo ");
+      }
+    </script>
+  </body>
+</html>
